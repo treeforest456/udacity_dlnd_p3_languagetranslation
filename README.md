@@ -32,7 +32,7 @@ In this project, I took a peek into the realm of neural network machine translat
         * Set keep_probability to the Dropout keep probability
         
 5. Translate
-```python
+	```python
 	Input
 	Word Ids:      [30, 64, 143, 170, 129, 200]
 	English Words: ['he', 'saw', 'a', 'yellow', 'lemon', '.']
