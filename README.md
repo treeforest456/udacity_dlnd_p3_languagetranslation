@@ -32,7 +32,7 @@ In this project, I took a peek into the realm of neural network machine translat
         * Set keep_probability to the Dropout keep probability
         
 5. Translate
-> ```python
+```python
 	Input
 	Word Ids:      [30, 64, 143, 170, 129, 200]
 	English Words: ['he', 'saw', 'a', 'yellow', 'lemon', '.']
@@ -41,3 +41,7 @@ In this project, I took a peek into the realm of neural network machine translat
 	Word Ids:      [177, 252, 293, 246, 108, 72, 180, 173, 1]
 	French Words: ['il', 'est', 'le', 'terrain', 'de', "l'", 'automne', '.', '<EOS>'] 
 	```
+
+## Imperfect Translation
+You might notice that some sentences translate better than others. Since the dataset was used only has a vocabulary of 227 English words of the thousands that could be used, the good results could be saw if only these words were used. Additionally, the translations in this data set were made by Google translate, so the translations themselves aren't particularly good.
+Thankfully, for this project, a perfect translation was not really needed. However, if I want to create a better translation model, I'll need better data.
